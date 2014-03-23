@@ -4,7 +4,7 @@ Send messages and search for messages.
 
 ## Installation
 
-The following will install this package and add it as a dependency to your project:
+The following will install [the npm package](https://www.npmjs.org/package/kwikdesk) and add it as a dependency to your project:
 
     npm install kwikdesk --save
 
