@@ -45,6 +45,13 @@ The output of the search above would be something like:
 
 See the [KwikDesk developer documentation](https://developer.kwikdesk.com/) for more details.
 
+## Error Handling
+
+Each of the callback functions (passed to `message` and `search`) have `err` as their first parameter.
+If something went wrong then `err` will be an `Error` object with an additional `code` property containing the KwikDesk error code.
+
+See [KwikdeskError](src/error.js) for the list of error codes that KwikDesk may return.
+
 ## License
 
 This project is released under the MIT License.
