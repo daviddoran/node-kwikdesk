@@ -1,0 +1,26 @@
+{
+  "name": "kwikdesk",
+  "version": "0.0.0",
+  "description": "A simple client for kwikdesk.com.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:daviddoran/node-kwikdesk.git"
+  },
+  "keywords": [
+    "kwikdesk",
+    "api",
+    "client"
+  ],
+  "author": "David Doran <david@daviddoran.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviddoran/node-kwikdesk/issues"
+  }
+}
